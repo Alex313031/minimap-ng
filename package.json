@@ -21,7 +21,7 @@
   ],
   "main": "./dist/main.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production parcel build --target main ./lib/main.js && npm run postbuild",
+    "dist": "cross-env NODE_ENV=production parcel build --target main ./lib/main.js && npm run postbuild",
     "postbuild": "rm -r -f -v node_modules && NODE_ENV=production npm install",
     "build-commit": "npm run clean && build-commit -o dist",
     "build.test": "npm run clean && cross-env NODE_ENV=test parcel build --target main ./lib/main.js",
