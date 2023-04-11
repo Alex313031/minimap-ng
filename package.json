@@ -1,10 +1,10 @@
 {
   "name": "minimap",
-  "version": "4.40.1",
+  "version": "4.40.2",
   "description": "A preview of the full source code.",
-  "repository": "https://github.com/atom-minimap/minimap",
+  "repository": "https://github.com/Alex313031/minimap-ng",
   "license": "MIT",
-  "author": "Fangdun Cai <cfddream@gmail.com>, Amin Yahyaabadi <aminyahyaabadi74@gmail.com>",
+  "author": "Alex313031 <Alex313031@gmail.com>",
   "contributors": [
     {
       "name": "Fangdun Cai",
@@ -45,9 +45,8 @@
     "mixto": "^1.0.0"
   },
   "devDependencies": {
-    "@types/atom": "^1.40.11",
+    "@types/atom": "^1.40.12",
     "@types/jasmine": "3.10.3",
-    "build-commit": "^0.1.4",
     "cross-env": "^7.0.3",
     "esdoc": "^1.1.0",
     "esdoc-es7-plugin": "^0.0.3",
